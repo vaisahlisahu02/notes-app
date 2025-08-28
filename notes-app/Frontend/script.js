@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const API_URL = "http://localhost:3000/api/notes"; 
+const API_URL = "https://backend-e5um.onrender.com/api/notes";
 
   // -------- Fetch all notes --------
   async function fetchNotes() {
